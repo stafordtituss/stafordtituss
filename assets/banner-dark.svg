@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Staford Titus Selvaraj. Author of AMEP: evidence that AI agents stayed within their delegated authority.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1626"/>
+      <stop offset="0.6" stop-color="#12203A"/>
+      <stop offset="1" stop-color="#1A2B4A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#2F6FB0" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2F6FB0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#8FB3DE" fill-opacity="0.10"/>
+    </pattern>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8FB3DE" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#F0A35E" stop-opacity="0.9"/>
+    </linearGradient>
+    <style>
+      .name { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; font-size: 56px; fill: #F6F4EF; letter-spacing: 0.5px; }
+      .tag { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 22px; fill: #C9D6E8; }
+      .eyebrow { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 700; letter-spacing: 3px; fill: #F0A35E; }
+      .node { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #E6EDF7; }
+      .small { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; fill: #8FA6C4; letter-spacing: 1px; }
+      .draw { stroke-dasharray: 260; stroke-dashoffset: 260; animation: draw 1.6s ease-out 0.3s forwards; }
+      .pop { opacity: 0; animation: pop 0.6s ease-out forwards; }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      @keyframes pop { to { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1280" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="18" fill="url(#dots)"/>
+  <rect width="1280" height="340" rx="18" fill="url(#glow)"/>
+  <!-- soft layered arcs -->
+  <path d="M760 340 C 900 220, 1080 200, 1280 230 L1280 340 Z" fill="#2F6FB0" fill-opacity="0.08"/>
+  <path d="M840 340 C 960 260, 1120 250, 1280 280 L1280 340 Z" fill="#F0A35E" fill-opacity="0.06"/>
+
+  <!-- text -->
+  <text x="64" y="112" class="eyebrow">AGENT AUTHORITY · VERIFIABLE EVIDENCE</text>
+  <text x="64" y="176" class="name">Staford Titus Selvaraj</text>
+  <text x="64" y="222" class="tag">Checking afterwards that AI agents stayed</text>
+  <text x="64" y="252" class="tag">within the authority they were given.</text>
+  <text x="64" y="300" class="small">AMEP  ·  IETF INTERNET-DRAFT  ·  APACHE-2.0</text>
+
+  <!-- delegation chain -->
+  <g transform="translate(790 118)">
+    <path class="draw" d="M44 52 H134 M178 52 H268 M312 52 H384" stroke="url(#line)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <g class="pop" style="animation-delay:0.1s">
+      <rect x="0" y="22" width="88" height="60" rx="14" fill="#16294A" stroke="#4E78AD" stroke-width="1.5"/>
+      <text x="44" y="57" text-anchor="middle" class="node">Person</text>
+    </g>
+    <g class="pop" style="animation-delay:0.5s">
+      <rect x="134" y="22" width="88" height="60" rx="14" fill="#16294A" stroke="#4E78AD" stroke-width="1.5"/>
+      <text x="178" y="57" text-anchor="middle" class="node">Agent</text>
+    </g>
+    <g class="pop" style="animation-delay:0.9s">
+      <rect x="268" y="22" width="88" height="60" rx="14" fill="#16294A" stroke="#4E78AD" stroke-width="1.5"/>
+      <text x="312" y="57" text-anchor="middle" class="node">Tool</text>
+    </g>
+    <g class="pop" style="animation-delay:1.4s">
+      <circle cx="414" cy="52" r="30" fill="#F0A35E" fill-opacity="0.14" stroke="#F0A35E" stroke-width="2"/>
+      <path d="M400 52 l9 9 l18 -19" stroke="#F0A35E" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="0" y="122" class="small">SIGNED HAND-OFFS</text>
+    <text x="268" y="122" class="small">SIGNED RECEIPT</text>
+    <text x="384" y="122" class="small">VERIFIED</text>
+  </g>
+</svg>
