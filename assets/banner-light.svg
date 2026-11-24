@@ -12,7 +12,7 @@
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.2" fill="#1B2A3A" fill-opacity="0.07"/>
     </pattern>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="44" y1="52" x2="384" y2="52">
       <stop offset="0" stop-color="#2F6FB0" stop-opacity="0.35"/>
       <stop offset="1" stop-color="#B65F14" stop-opacity="0.95"/>
     </linearGradient>
@@ -57,7 +57,7 @@
       <path d="M400 52 l9 9 l18 -19" stroke="#B65F14" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     <text x="111" y="122" text-anchor="middle" class="small">SIGNED HAND-OFFS</text>
-    <text x="312" y="122" text-anchor="middle" class="small">SIGNED RECEIPT</text>
+    <text x="312" y="122" text-anchor="middle" class="small">RECEIPT</text>
     <text x="414" y="122" text-anchor="middle" class="small">VERIFIED</text>
   </g>
 </svg>
