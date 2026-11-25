@@ -1,65 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Staford Titus Selvaraj. Author of AMEP: evidence that AI agents stayed within their delegated authority.">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1626"/>
-      <stop offset="0.6" stop-color="#12203A"/>
-      <stop offset="1" stop-color="#1A2B4A"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.82" cy="0.45" r="0.55">
-      <stop offset="0" stop-color="#2F6FB0" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#2F6FB0" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.2" fill="#8FB3DE" fill-opacity="0.10"/>
-    </pattern>
-    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="44" y1="52" x2="384" y2="52">
-      <stop offset="0" stop-color="#8FB3DE" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#F0A35E" stop-opacity="0.9"/>
-    </linearGradient>
-    <style>
-      .name { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; font-size: 56px; fill: #F6F4EF; letter-spacing: 0.5px; }
-      .tag { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 22px; fill: #C9D6E8; }
-      .eyebrow { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 700; letter-spacing: 3px; fill: #F0A35E; }
-      .node { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #E6EDF7; }
-      .small { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; fill: #8FA6C4; letter-spacing: 1px; }
-    </style>
-  </defs>
-
-  <rect width="1280" height="340" rx="18" fill="url(#bg)"/>
-  <rect width="1280" height="340" rx="18" fill="url(#dots)"/>
-  <rect width="1280" height="340" rx="18" fill="url(#glow)"/>
-  <!-- soft layered arcs -->
-  <path d="M760 340 C 900 220, 1080 200, 1280 230 L1280 340 Z" fill="#2F6FB0" fill-opacity="0.08"/>
-  <path d="M840 340 C 960 260, 1120 250, 1280 280 L1280 340 Z" fill="#F0A35E" fill-opacity="0.06"/>
-
-  <!-- text -->
-  <text x="64" y="112" class="eyebrow">AGENT AUTHORITY · VERIFIABLE EVIDENCE</text>
-  <text x="64" y="176" class="name">Staford Titus Selvaraj</text>
-  <text x="64" y="222" class="tag">Checking afterwards that AI agents stayed</text>
-  <text x="64" y="252" class="tag">within the authority they were given.</text>
-  <text x="64" y="300" class="small">AMEP  ·  IETF INTERNET-DRAFT  ·  APACHE-2.0</text>
-
-  <!-- delegation chain -->
-  <g transform="translate(790 118)">
-    <path d="M44 52 H134 M178 52 H268 M312 52 H384" stroke="url(#line)" stroke-width="3" fill="none" stroke-linecap="round"/>
-    <g>
-      <rect x="0" y="22" width="88" height="60" rx="14" fill="#16294A" stroke="#4E78AD" stroke-width="1.5"/>
-      <text x="44" y="57" text-anchor="middle" class="node">Person</text>
-    </g>
-    <g>
-      <rect x="134" y="22" width="88" height="60" rx="14" fill="#16294A" stroke="#4E78AD" stroke-width="1.5"/>
-      <text x="178" y="57" text-anchor="middle" class="node">Agent</text>
-    </g>
-    <g>
-      <rect x="268" y="22" width="88" height="60" rx="14" fill="#16294A" stroke="#4E78AD" stroke-width="1.5"/>
-      <text x="312" y="57" text-anchor="middle" class="node">Tool</text>
-    </g>
-    <g>
-      <circle cx="414" cy="52" r="30" fill="#F0A35E" fill-opacity="0.14" stroke="#F0A35E" stroke-width="2"/>
-      <path d="M400 52 l9 9 l18 -19" stroke="#F0A35E" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
-    <text x="111" y="122" text-anchor="middle" class="small">SIGNED HAND-OFFS</text>
-    <text x="312" y="122" text-anchor="middle" class="small">RECEIPT</text>
-    <text x="414" y="122" text-anchor="middle" class="small">VERIFIED</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Staford Titus Selvaraj: checking afterwards that AI agents stayed within the authority they were given.">
+<rect width="1280" height="360" fill="#0a0e13"/>
+<text x="56" y="70" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" letter-spacing="3" fill="#8c99a8">STAFORD TITUS SELVARAJ · AUTHOR OF AMEP</text>
+<text x="52" y="160" font-family="'Big Shoulders Display', 'Arial Narrow', 'Helvetica Neue Condensed', Impact, sans-serif" font-weight="900" font-size="78" fill="#ece8df" letter-spacing="-1">DID THE AGENT</text>
+<text x="52" y="240" font-family="'Big Shoulders Display', 'Arial Narrow', 'Helvetica Neue Condensed', Impact, sans-serif" font-weight="900" font-size="78" fill="#8fc3ff" letter-spacing="-1">STAY INSIDE?</text>
+<text x="56" y="300" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-style="italic" font-size="22" fill="#8c99a8">Signed evidence for what AI agents do with delegated authority.</text>
+<rect x="720" y="30" width="510" height="300" rx="10" fill="#111821" stroke="#243140"/>
+<line x1="720" y1="30" x2="720" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="750" y1="30" x2="750" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="780" y1="30" x2="780" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="810" y1="30" x2="810" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="840" y1="30" x2="840" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="870" y1="30" x2="870" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="900" y1="30" x2="900" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="930" y1="30" x2="930" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="960" y1="30" x2="960" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="990" y1="30" x2="990" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="1020" y1="30" x2="1020" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="1050" y1="30" x2="1050" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="1080" y1="30" x2="1080" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="1110" y1="30" x2="1110" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="1140" y1="30" x2="1140" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="1170" y1="30" x2="1170" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="1200" y1="30" x2="1200" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="1230" y1="30" x2="1230" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="720" y1="30" x2="1230" y2="30" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="720" y1="60" x2="1230" y2="60" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="720" y1="90" x2="1230" y2="90" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="720" y1="120" x2="1230" y2="120" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="720" y1="150" x2="1230" y2="150" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="720" y1="180" x2="1230" y2="180" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="720" y1="210" x2="1230" y2="210" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="720" y1="240" x2="1230" y2="240" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="720" y1="270" x2="1230" y2="270" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="720" y1="300" x2="1230" y2="300" stroke="#243140" stroke-width="1" opacity="0.5"/><line x1="720" y1="330" x2="1230" y2="330" stroke="#243140" stroke-width="1" opacity="0.5"/>
+<rect x="742" y="52" width="466" height="256" rx="10" fill="none" stroke="#8c99a8" stroke-width="2.5"/>
+<text x="758" y="78" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#8c99a8">MANDATE · fs.* on repo:app/*</text>
+<rect x="873.0" y="108.0" width="234.60000000000002" height="144.0" rx="8" fill="#8fc3ff" fill-opacity="0.07" stroke="#8fc3ff" stroke-width="2.5" stroke-dasharray="9 7"/>
+<text x="887.0" y="134.0" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#8fc3ff">DELEGATION · fs.write src/*</text>
+<path d="M760 292 C 853.9968 292, 994.992 248.352, 994.992 182.88" fill="none" stroke="#e08a3c" stroke-width="3" stroke-linecap="round"/>
+<circle cx="760" cy="292" r="7" fill="#e08a3c"/>
+<text x="774" y="297" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#e08a3c">agent</text>
+<circle cx="994.992" cy="182.88" r="11" fill="#67d39b"/>
+<circle cx="994.992" cy="182.88" r="20" fill="none" stroke="#67d39b" stroke-width="2" opacity="0.4"/>
+<text x="1022.992" y="187.88" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#67d39b">effect · preserved</text>
 </svg>

@@ -1,14 +1,15 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=3">
-  <img alt="Staford Titus Selvaraj: checking afterwards that AI agents stayed within the authority they were given." src="assets/banner-light.svg?v=3" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=4">
+  <img alt="Staford Titus Selvaraj: checking afterwards that AI agents stayed within the authority they were given." src="assets/banner-light.svg?v=4" width="100%">
 </picture>
 
 <p align="center">
   <a href="https://datatracker.ietf.org/doc/draft-stafordtituss-agentic-mandate-evidence/"><img alt="IETF Internet-Draft" src="https://img.shields.io/badge/IETF-Internet--Draft-14213D?style=flat-square"></a>
   <a href="https://pypi.org/project/amep-protocol/"><img alt="PyPI" src="https://img.shields.io/pypi/v/amep-protocol?style=flat-square&label=PyPI&color=2F6FB0"></a>
   <a href="https://www.npmjs.com/package/@stafordtituss/amep"><img alt="npm" src="https://img.shields.io/npm/v/@stafordtituss/amep?style=flat-square&label=npm&color=2F6FB0"></a>
-  <a href="https://github.com/stafordtituss/amep/tree/main/vectors"><img alt="282 conformance vectors" src="https://img.shields.io/badge/conformance-282%20vectors-B65F14?style=flat-square"></a>
+  <a href="https://github.com/stafordtituss/amep/tree/main/vectors"><img alt="287 conformance vectors" src="https://img.shields.io/badge/conformance-287%20vectors-B65F14?style=flat-square"></a>
+  <a href="https://stafordtituss.github.io/amep/"><img alt="Project site" src="https://img.shields.io/badge/site-stafordtituss.github.io%2Famep-1F5FA6?style=flat-square"></a>
   <a href="https://github.com/stafordtituss/amep/blob/main/LIMITS.md"><img alt="Limits published" src="https://img.shields.io/badge/limits-published-4A5568?style=flat-square"></a>
 </p>
 
@@ -46,11 +47,13 @@ flowchart LR
 | Where | What happened |
 |---|---|
 | **Google Agent Payments Protocol** | Found that AP2's specification and SDK computed receipt references differently ([#405](https://github.com/google-agentic-commerce/AP2/issues/405)); the specification fix is proposed in [#406](https://github.com/google-agentic-commerce/AP2/pull/406). |
-| **Verifiable Agent Trust Envelope** | Two AMEP evaluations of its recovery cases, re-run by its maintainer and merged ([#138](https://github.com/Poke-nushi/Verifiable-Agent-Trust-Envelope/pull/138), [#139](https://github.com/Poke-nushi/Verifiable-Agent-Trust-Envelope/pull/139)). |
+| **Verifiable Agent Trust Envelope** | AMEP evaluations of its recovery cases: two re-run by its maintainer and merged ([#138](https://github.com/Poke-nushi/Verifiable-Agent-Trust-Envelope/pull/138), [#139](https://github.com/Poke-nushi/Verifiable-Agent-Trust-Envelope/pull/139)), a third proposed ([#142](https://github.com/Poke-nushi/Verifiable-Agent-Trust-Envelope/pull/142)). |
 | **in-toto** | A proposed attestation predicate for signed verdicts ([in-toto/attestation#625](https://github.com/in-toto/attestation/pull/625)). |
 | **W3C Agent Identity Registry Protocol CG** | A delegation use case with 20 test cases. |
 
 ### Try it
+
+In your browser, with nothing to install: **[the AMEP verifier](https://stafordtituss.github.io/amep/verify/)**. Or:
 
 ```bash
 pip install amep-protocol          # Python
